@@ -2,9 +2,9 @@
 
 An Angular 1.0 donation form with SASS and Gulpfile.
 
-The APP/JS folder contains an Angular custom directive implementing Angular cookies. These is also some SASS.
+The APP/JS folder contains an Angular custom directive implementing Angular cookies. There is also some SASS.
 
-The GULPFILE in the root converts and minifies SASS to CSS. JavaScript files from various folders are concatenated and minified to a single distribution.
+The GULPFILE in the root converts and minifies SASS to CSS. JavaScript files are concatenated and minified to a single distribution.
 
 Try the form here http://forth-media.com/git/donate/
 
