@@ -17,26 +17,17 @@
     </section>
 
     <button ng-click="save()" class="button save">{{state.save}}</button>
-    <button ng-click="toggleSocial()" class="button">Tell your friends</button>
+    
     <div class="modal" ng-show="showWhy">
         <span class="close" ng-click="toggleWhy()">×</span>
         <h3>Why give $50?</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </div>
 
-    <div class="modal" ng-show="showSocial">
-        <span class="close" ng-click="toggleSocial()">×</span>
-        <h3>Tell your friends</h3>
-        <p><a href="https://twitter.com/share" class="twitter-share-button" data-text="Make a donation in Angular JS" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-        <p><a href="http://www.facebook.com">Share this on Facebook</a></p>
-   </div>
-
     <div class="modal" ng-show="showThankyou">
         <span class="close" ng-click="toggleThankyou()">×</span>
         <h3>Thanks for your donation!</h3>
         <p> Total amount donated: ${{state.given}}
    </div>
-
-    <p><a href="#" ng-click="reset()" class="reset">(reset component)</a>
 
 </div>
