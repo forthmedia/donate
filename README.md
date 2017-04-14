@@ -1,4 +1,6 @@
-# donate An Angular 1.0 donation form
+# donate
+
+An Angular 1.0 donation form with SASS and Gulpfile.
 
 The APP folder contains and Angular custom directive with Angular cookies. These is also some SASS.
 
