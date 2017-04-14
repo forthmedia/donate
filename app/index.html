@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donate</title>
+
+    <!--build:js js/donate.min.js --> 
+    <script src="./js/lib/angular.js"></script>
+    <script src="./js/lib/angular-cookies.js"></script>
+    <script src="./js/donate.js"></script>
+    <!-- endbuild -->
+
+    <!--build:css css/donate.min.css-->
+    <link href="./css/donate.css" rel="stylesheet">
+    <!-- endbuild -->
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+</head>
+<body ng-app="donateApp">
+    <div ng-controller="donateController">
+        <donate-ux></donate-ux>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,138 @@
+$font-stack:    'Raleway', sans-serif;
+$gold: #fa0;
+$red: #f03;
+$blue: #69f;
+$dk-gray: #444;
+
+body {
+    font-family: $font-stack;
+    font-size: 10pt;
+    color: #aaa;
+}
+
+a {
+    color: $blue;
+    font-style: italic;
+    text-decoration: none;
+}
+.container {
+    width: 300px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    margin: 15px auto;
+}
+header {
+    background-color: $dk-gray;
+    border-radius: 4px;
+    color: #fff;
+    padding: 12px 0;
+    text-align: center;
+
+}
+.caret {
+    color: $dk-gray;
+    margin-top: -8px;
+    margin-left: 255px;
+}
+
+section {
+    border: 1px solid #ccc;
+    margin-bottom: 12px;
+    padding: 0 20px;
+
+    span {
+        color: $gold;
+    }
+}
+
+.progress {
+    border-top: 1px solid $gold;
+    border-left: 1px solid $gold;
+    border-right: 1px solid $gold;
+    height: 12px;
+
+    .bar {
+        background-color: $gold;
+        height: 12px;
+        width: 50%;
+    }
+}
+
+input {
+    border: 0;
+    font-size: 18px;
+    width: 35%;
+}
+.amount {
+    color: #666;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 14px 10px;
+    width: 180px;
+}
+.give {
+    background-color: $red;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 15px;
+    padding: 14px 0;
+    width: 110px;
+
+    &:hover {
+        cursor: pointer; 
+    }
+}
+.button {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #888;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    width: 300px;
+}
+.save {
+    margin-right: 12px;
+}
+.modal {
+    background: #fff;
+    border: 2px solid $blue;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    min-height: 305px;
+    padding: 10px 20px;
+    position:absolute;
+    width: 300px;
+    top: 15px;
+    left: 50%;
+    margin-left: -150px;
+    z-index: 1;
+
+    h3 {
+        color: $blue;
+    }
+}
+.close {
+    color: #ccc;
+    float: right;
+    font-size:  24px;
+    font-weight: bold;
+
+    &:hover {
+        cursor: pointer;
+        color: $red;
+        text-decoration: none;
+    }
+}
+.reset {
+    font-size: 8px;
+    font-style: normal;
+}
